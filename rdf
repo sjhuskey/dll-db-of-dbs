@@ -2,30 +2,34 @@
 <rdf:RDF 
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:dc="http://purl.org/dc/terms/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcmi="http://www.imtf.com/e-document/dcmi">
     <rdf:Description rdf:about="http://www.thelatinlibrary.com/">
-        <dc:title>The Latin Library</dc:title>
+        <dc:title xml:lang="en">The Latin Library</dc:title>
         <dc:description>The texts are not intended for research purposes nor as substitutes for critical editions. Despite constant effort to remove “scanner artifacts” and other typographical errors, many such errors remain. The texts are presented merely for ease of on–line reading or for downloading for personal or educational use.</dc:description>
         <dc:coverage>Classical through Neo-Latin</dc:coverage>
         <dc:creator>unknown</dc:creator>
         <dc:rights>Public Domain</dc:rights>
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>HTML</dcmi:format>
     </rdf:Description>
-    <rdf:Description rdf:about="http://latin.packhum.org/index/>">
-        <dc:title>Classical Latin Texts</dc:title>
+    <rdf:Description rdf:about="http://latin.packhum.org/index">
+        <dc:title xml:lang="en">Classical Latin Texts</dc:title>
         <dc:description>This website contains essentially all Latin literary texts written before A.D. 200, as well as some texts selected from later antiquity.</dc:description>
         <dc:coverage>Classical</dc:coverage>
         <dc:creator>Packard Humanities Institute</dc:creator>
         <dc:rights>Fair Use</dc:rights>
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>HTML transformed from “Betacode,” originally developed for use with PHI Latin CD-ROM and the Thesaurus Linguae Graecae.</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Greco-Roman">
-        <dc:title>Perseus Collection: Greek and Roman Materials</dc:title>
+        <dc:title xml:lang="en">Perseus Collection: Greek and Roman Materials</dc:title>
         <dc:description>Latin (and Greek) texts with English translations and tools for readers.</dc:description>
         <dc:coverage>Classical</dc:coverage>
         <dc:creator>Gregory R. Crane</dc:creator>
         <dc:rights>Public Domain</dc:rights>
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>HTML/TEI-XML</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.digiliblt.unipmn.it/">
         <dc:title xml:lang="en">Digital library of late-antique latin texts</dc:title>
@@ -36,17 +40,19 @@
         <dc:contributor>Maurizio Lana</dc:contributor>
         <dc:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Probably stored in some DB that transforms to TXT, TEI-XML, PDF, and EPUB.</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.gutenberg.org/browse/languages/la">
-        <dc:title>Project Gutenberg</dc:title>
+        <dc:title xml:lang="en">Project Gutenberg</dc:title>
         <dc:description>Project Gutenberg offers over 42,000 free ebooks: choose among free epub books, free kindle books, download them or read them online.</dc:description>
         <dc:coverage>Classical to Neo-Latin</dc:coverage>
         <dc:creator>Pietro di Miceli</dc:creator>
         <dc:rights rdf:resource="http://www.gutenberg.org/wiki/Gutenberg:The_Project_Gutenberg_License" />
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Variety of formats, depending on the text.</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="www.philological.bham.ac.uk">
-        <dc:title>The Philological Museum</dc:title>
+        <dc:title xml:lang="en">The Philological Museum</dc:title>
         <dc:description>A site devoted to Humanistic Letters, principally British, published under the auspices of The Shakespeare Institute of the University of Birmingham </dc:description>
         <dc:coverage>Humanistic and Neo-Latin</dc:coverage>
         <dc:creator>Dana F. Sutton</dc:creator>
@@ -54,14 +60,16 @@
         <dc:relation rdf:resource="http://www.philological.bham.ac.uk/bibliography/index.htm" />
         <dc:rights rdf:resource="http://www.philological.bham.ac.uk/copyright.html" />
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>HTML files, with internal links to notes and translation.</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.intratext.com/LAT/">
-        <dc:title>IntraText Digital Library: Lingua Latina</dc:title>
+        <dc:title xml:lang="en">IntraText Digital Library: Lingua Latina</dc:title>
         <dc:description>Full-text Digital Library offering books and corpora as lexical hypertexts on Creative Commons License Committed to accuracy, accessibility and touch-oriented cognitive ergonomics</dc:description>
         <dc:coverage>Classical to Neo-Latin</dc:coverage>
         <dc:creator>Nicola Mastidoro</dc:creator>
         <dc:rights rdf:resource="http://www.intratext.com/info/copyENG.htm" />
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>HTML files</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.forumromanum.org/literature/index.html">
         <dc:title>Corpus Scriptorum Latinarum</dc:title>
@@ -71,6 +79,7 @@
         <dc:creator>David Camden</dc:creator>
         <dc:rights rdf:resource="http://www.forumromanum.org/literature/copyright.html" />
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>HTML files</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.mqdq.it/mqdq/">
         <dc:title xml:lang="it">musis deoque: un archivio digitale di poesia latina</dc:title>
@@ -85,6 +94,7 @@
         <dc:contributor>Valeria Viparelli</dc:contributor>
         <dc:rights rdf:resource="http://www.mqdq.it/mqdq/copyright.jsp" />
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Unknown DB, transformed into HTML</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.cipl.ulg.ac.be/Lasla/index.html">
         <dc:title xml:lang="fr">Laboratoire d'Analyse Statistique des Langues Anciennes</dc:title>
@@ -94,9 +104,10 @@
         <dc:contributor>Laurent Simon</dc:contributor>
         <dc:contribtor>Gérald Purnelle</dc:contribtor>
         <dc:contributor>Benoit Morimont</dc:contributor>
-        <dc:accessrights>Open, with login</dc:accessrights> 
+        <dc:accessrights>Open, with login</dc:accessrights>
+        <dcmi:format>Unknown, probably HTML</dcmi:format>
     </rdf:Description>
-    <rdf:Description rdf:about="hhttp://cil.bbaw.de/cil_en/dateien/datenbank_eng.php">
+    <rdf:Description rdf:about="http://cil.bbaw.de/cil_en/dateien/datenbank_eng.php">
         <dc:title xml:lang="la">Corpus Inscriptionum Latinarum</dc:title>
         <dc:description>The CIL includes the Latin inscriptions from the entire area of the former Roman empire, arranged by region and by inscription-type.</dc:description>
         <dc:coverage>Classical Latin</dc:coverage>
@@ -104,9 +115,10 @@
         <dc:creator>Werner Eck</dc:creator>
         <dc:rights rdf:resource="http://www.disclaimer.de/disclaimer.htm#2" />
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Unknown DB</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://arachne.uni-koeln.de/drupal/?q=es%2Fnode%2F291">
-        <dc:title>CIL Open Access</dc:title>
+        <dc:title xml:lang="en">CIL Open Access</dc:title>
         <dc:description>This digitized version of the CIL will initially comprise of the more than 50 parts (of vols. I-XVI + auctaria and of v. I (edition altera)) published before 1940. Available funding covers the digitization of the volumes with an imperfect OCR searching capability. The goal is to eventually create a keyword searchable database to contain also future volumes of the CIL as they fall outside of copyright restrictions and to eventually do the same for the Inscriptiones Graecae.</dc:description>
         <dc:coverage>Classical Latin</dc:coverage>
         <rdf:type>Inscriptions</rdf:type>
@@ -115,9 +127,10 @@
         <dc:creator>Yannick Nexon</dc:creator>
         <dc:rights rdf:resource="http://arachne.uni-koeln.de/drupal/?q=node/199" />
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Drupal CMS, with content type of OCR PDF and TEI transcription.</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.edb.uniba.it/">
-        <dc:title>EDB Epigraphic Database Bari</dc:title>
+        <dc:title xml:lang="en">EDB Epigraphic Database Bari</dc:title>
         <dc:description xml:lang="it">Allo stato attuale in EDB sono presenti 26164 testi epigrafici, in massima parte elaborati sulla base della edizione ICVR, nova series: 22265 latini e 3899 greci (o con compresenza di greco e latino), provenienti essenzialmente dai contesti cimiteriali cristiani del suburbio romano.</dc:description>
         <dc:coverage>Christian inscriptions in Rome</dc:coverage>
         <dc:creator>Carlo Carletti</dc:creator>
@@ -125,9 +138,10 @@
         <dc:creator>Anita Rocco</dc:creator>
         <dc:source rdf:resource="http://www.eagle-eagle.it/" />
         <dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" /><dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Unknown DB, transformed into HTML</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.edr-edr.it/English/index_en.php">
-        <dc:title>Epigraphic Database Roma</dc:title>
+        <dc:title xml:lang="en">Epigraphic Database Roma</dc:title>
         <dc:description>EDR aims at collecting the whole epigraphy of Rome and of the Italian peninsula including Sardinia and Sicily, with the exception of Christian inscriptions (under EDB jurisdiction).</dc:description>
         <dc:coverage>Rome and the Italian peninsula</dc:coverage>
         <rdf:type>Inscriptions</rdf:type>
@@ -136,9 +150,10 @@
         <dc:source rdf:resource="http://www.eagle-eagle.it/" />
         <dc:rights xml:lang="it" rdf:resource="http://www.edr-edr.it/Documenti/Document2_it.php" />
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Unknown DB</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.manfredclauss.de/gb/index.html">
-        <dc:title>Epigraphische Datenbank Clauss-Slaby</dc:title>
+        <dc:title xml:lang="de">Epigraphische Datenbank Clauss-Slaby</dc:title>
         <dc:description>… a data base that records almost all Latin inscriptions. The texts are presented without abbreviations and completed where possible. The presentation of the texts is kept as simple as possible. Beside the commonly used indications for resolution, completions and erasures as few special characters as possible have been used. The abbreviations give the references for the publications used. The statistical data indicates which volumes (with how many texts per volume as far as the Latin inscriptions are concerned) are recorded completely in the data base. By now 676.321 sets of data for 455.145 inscriptions from over 1.800 publications for more than 21.300 places with 73.745 pictures have been recorded.</dc:description>
         <dc:coverage>Classical Latin Inscriptions</dc:coverage>
         <rdf:type>Inscriptions</rdf:type>
@@ -147,9 +162,10 @@
         <dc:contributor>Michael Rathmann</dc:contributor>
         <dc:rights>No information listed.</dc:rights>
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Unknown DB</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://edh-www.adw.uni-heidelberg.de/home">
-        <dc:title>Epigraphic Database Heidelberg</dc:title>
+        <dc:title xml:lang="en">Epigraphic Database Heidelberg</dc:title>
         <dc:description>The Epigraphic Database Heidelberg contains the texts of Latin and bilingual (i.e. Latin-Greek) inscriptions of the Roman Empire. The epigraphic monuments are collected and kept up to date on the basis of modern research. With the help of seach functions specific queries can be carried out - e.g. a search for words in inscriptions and / or particular descriptive data. The seach results are often displayed together with photos and drawings.</dc:description>
         <dc:coverage>Roman Empire</dc:coverage>
         <dc:type>Inscriptions</dc:type>
@@ -158,9 +174,10 @@
         <dc:source rdf:resource="http://www.eagle-eagle.it/" />
         <dc:rights rdf:resource="http://edh-www.adw.uni-heidelberg.de/projekt/mitarbeiter#" />
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Unknown DB</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.epigraphik.uni-hamburg.de/project">
-        <dc:title>Epigraphic database for ancient Asia Minor</dc:title>
+        <dc:title xml:lang="en">Epigraphic database for ancient Asia Minor</dc:title>
         <dc:description>… an epigraphic database … in which all Greek and Latin inscriptions of several different regions from ancient Asia Minor are collected.</dc:description>
         <dc:coverage>Asia Minor</dc:coverage>
         <dc:type>Inscriptions</dc:type>
@@ -169,18 +186,20 @@
         <dc:creator>Donald McCabe</dc:creator>
         <dc:rights>No information listed.</dc:rights>
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Unknown DB</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://eda-bea.es/">
-        <dc:title>Hispania Epigraphica</dc:title>
+        <dc:title xml:lang="es">Hispania Epigraphica</dc:title>
         <dc:description>Roman Inscriptions from the Iberian Peninsula</dc:description>
         <dc:coverage>Iberian Peninsula</dc:coverage>
         <dc:type>Inscriptions</dc:type>
         <dc:creator>Joaquín Gómez-Pantoja</dc:creator>
         <dc:rights>No information listed.</dc:rights>
         <dc:accessrights>Open</dc:accessrights>
+        <dcmi:format>Unknown DB</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://papyri.info/">
-        <dc:title>papyri.info</dc:title>
+        <dc:title xml:lang="en">papyri.info</dc:title>
         <dc:description>Papyri.info is dedicated to the study of ancient papyrological documents.  It offers links to papyrological resources, a customized search engine (called the Papyrological Navigator) capable of retrieving information from multiple related collections, and an editing application, the Papyrological Editor, which anyone may use to contribute content. The Papyrological Navigator aggregates and displays information from the Advanced Papyrological Information System (APIS), the Duke Databank of Documentary Papyri (DDbDP), the Heidelberger Gesamtverzeichnis der griechischen Papyrusurkunden Ägyptens (HGV), and Bibliographie Papyrologique (BP), as well as links to Trismegistos. Work is in progress to incorporate content from the Arabic Papyrological Database (APD) as well.</dc:description>
         <dc:type>Papyri</dc:type>
         <dc:creator>Roger Bagnall</dc:creator>
@@ -188,29 +207,33 @@
         <dc:creator>Hugh Cayless</dc:creator>
         <dc:rights>No information listed.</dc:rights>
         <dc:accessrights>Open, with login</dc:accessrights>
+        <dcmi:format>SoSOL CMS transforming content to HTML, TEI-XML, RDF/XML, Turtle, N-Triples, JSON</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.degruyter.com/view/db/btl">
-        <dc:title>Bibliotheca Teubneriana Latina</dc:title>
+        <dc:title xml:lang="la">Bibliotheca Teubneriana Latina</dc:title>
         <dc:description>The BTL Online database provides electronic access to all editions of Latin texts published in the Bibliotheca Teubneriana, ranging from antiquity and late antiquity to medieval and neo-Latin texts. A total of approximately 13 million word forms are thus accessible electronically. The user interface allows various and differentiated searches. Classical scholars and ancient historians are provided with a valuable tool for both research and the preparation of teaching at school and university level. Each year, the database is extended by the texts of the newly printed Latin editions of the Bibliotheca Teubneriana.</dc:description>
         <dc:coverage>Classical through Neo-Latin</dc:coverage>
         <dc:publisher rdf:resource="http://www.degruyter.com" />
         <dc:rights>Protected by copyright</dc:rights>
         <dc:accessrights>By paid subscription.</dc:accessrights>
+        <dcmi:format>Unknown DB</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.brepolis.net/">
-        <dc:title>Brepolis Library of Latin Texts</dc:title>
+        <dc:title xml:lang="en">Brepolis Library of Latin Texts</dc:title>
         <dc:description>It contains texts from the beginning of Latin literature (Livius Andronicus, 240 BC) through to the texts of the Second Vatican Council (1962-1965). It covers all the works from the classical period, the most important patristic works, a very extensive corpus of Medieval Latin literature as well as works of recentior latinitas.</dc:description>
         <dc:coverage>Classical to Neo-Latin</dc:coverage>
         <dc:publisher>Brepols Publishers</dc:publisher>
         <dc:rights>Protected by copyright</dc:rights>
         <dc:accessrights>By paid subscription</dc:accessrights>
+        <dcmi:format>Unknown DB</dcmi:format>
     </rdf:Description>
     <rdf:Description rdf:about="http://pld.chadwyck.co.uk/">
-        <dc:title>Patrologia Latina</dc:title>
+        <dc:title xml:lang="la">Patrologia Latina</dc:title>
         <dc:description>The Patrologia Latina Database is an electronic version of the first edition of Jacques-Paul Migne's Patrologia Latina, published between 1844 and 1855, and the four volumes of indexes published between 1862 and 1865. The Patrologia Latina comprises the works of the Church Fathers from Tertullian in 200 AD to the death of Pope Innocent III in 1216. The Patrologia Latina Database contains the complete Patrologia Latina, including all prefatory material, original texts, critical apparatus and indexes. Migne's column numbers, essential references for scholars, are also included.</dc:description>
         <dc:coverage>200 to 1216 AD</dc:coverage>
         <dc:publisher>ProQuest LLC</dc:publisher>
         <dc:rights rdf:resource="http://pld.chadwyck.co.uk/help/terms2.htm" />
         <dc:accessrights>By paid subscription</dc:accessrights>
+        <dcmi:format>Unknown DB</dcmi:format>
     </rdf:Description>
 </rdf:RDF>
